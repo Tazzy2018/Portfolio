@@ -21,10 +21,10 @@ body {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1)),
     url(./compressed-bg.jpg);
     background-size: cover;
-    background-position: 100%;
     /* background: black; */
+    background-position: 60%;
     width: 100%;
-    padding: 3%;
+    padding: 5%;
     
 } 
 
@@ -46,7 +46,7 @@ body {
     text-align: center;
     margin-bottom: 75%;
     position: relative;
-    bottom: 20px;
+    bottom: 50px;
     right: 8px
 }
 
@@ -126,7 +126,6 @@ h3 {
     text-decoration: underline goldenrod ;
     position: relative;
     bottom: 30px;
-    
 }
 
 .about {
@@ -173,9 +172,14 @@ h3 {
     
 }
 
+.item p {
+    font-size: 20px;
+}
+
+
 .grid-container {
     display:grid;
-    grid-gap: 60px 100px;
+    grid-gap: 60px 70px;
     grid-template-columns: auto auto auto;
     justify-content: center;
 }
@@ -342,7 +346,16 @@ li {
     margin-top: 3%;
 }
 
+li button {
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+li a {
+    color: goldenrod;
+    text-decoration: none;
+}
 
 input[type=text],
 input[type=name],
@@ -384,14 +397,14 @@ button[type=submit] {
     cursor: pointer;
     margin: 0 auto;
     position: relative;
-    right: 20%;
+    right: 15%;
 }
 
 
 .burger-menu {
     margin: 0;
     margin-left: 15px;
-    padding: 0;
+    padding: 1px;
     float: left;
     -webkit-transition: opacity 7s;
     transition: opacity 7s;
@@ -404,7 +417,7 @@ button[type=submit] {
 }
 
 .burger-menu .line {
-    width: 60px;
+    width: 50px;
     height: 5px;
     margin: 8px auto;
     -webkit-transition: all 0.3s ease-in-out;
@@ -483,6 +496,13 @@ button[type=submit] {
 
 
 
+@media screen and (max-width: 800px) {
+    .title p {
+        font-size: 40px;
+
+    }
+
+}
 
 
 
@@ -493,7 +513,21 @@ button[type=submit] {
 
 
 
-@media screen and (max-width: 660px) {
+
+@media screen and (max-width: 600px) {
+
+    .top-section {
+        padding: 20%;
+    }
+
+    .title p {
+        display: none;
+    }
+
+    .side-view {
+        width: 50%;
+        height: 50%;
+    }
 
     .menu ul {
         float: left;
@@ -504,6 +538,9 @@ button[type=submit] {
     .burger-menu {
         float: right;
         display: block;
+        position: relative;
+        bottom: 50px;
+        left: 50px;
     }
 
     .menu {
@@ -548,6 +585,66 @@ button[type=submit] {
         background-color: #0F614E;
         letter-spacing: 0px;
     }
+
+
+    .grid-container {
+        display: grid;
+        grid-gap: 40px 50px;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+
+
+    li button {
+            padding: 6px;
+            border-radius: 6px;
+    }
+
+    .diary {
+        width: 40%;
+        height: 40%
+    }
+
+    .events {
+        width: 40%;
+        height: 40%
+    }
+
+    .books {
+        width: 40%;
+        height: 40%
+    }
+
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social {
+
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }
+
+    .social a {
+        position: relative;
+        
+    }
+
+
+
+
+
+
+
+
+
+
 
 
     
