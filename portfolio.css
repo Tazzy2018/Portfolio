@@ -546,7 +546,7 @@ button[type=submit] {
     .menu {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(12, 10, 10, 0.1));
         width: 100%;
-        height: 60vh;
+        height: 50vh;
         display: none;
     }
 
