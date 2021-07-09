@@ -87,7 +87,8 @@ h1 {
 h2 {
     text-align: center;
     text-decoration: underline goldenrod;
-    text-decoration-thickness: 3px;
+    text-decoration-style: double;
+    
 }
 
 
@@ -183,7 +184,7 @@ h3 {
     font-size: 25px;
     text-align: center;
     text-decoration: underline goldenrod;
-    text-decoration-thickness: 3px;
+    
 }
 
 .image-book {
@@ -533,6 +534,20 @@ footer {
     .social a {
         position: relative;
         
+    }
+
+    fieldset {
+        border: none;
+        text-align: left;
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+
+
+    button {
+        left: 1%;
     }
 
     
