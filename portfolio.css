@@ -193,12 +193,13 @@ h3 {
 }
 
 .books {
-    width: 30%;
-    height: 40%;
-    box-shadow: 10px 5px 10px 5px;
-    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    /* box-shadow: 10px 5px 10px 5px; */
+    margin-top: 1%;
     
 } 
+
 
 
 .info-project2{
@@ -214,9 +215,9 @@ text-align: center;
 }
 
 .events {
-    width: 30%;
-    height: 40%;
-    box-shadow: 10px 5px 10px 5px;
+    width: 50%;
+    height: 50%;
+    /* box-shadow: 10px 5px 10px 5px; */
     margin-top: 5%;
 }
 
@@ -235,11 +236,31 @@ text-align: center;
 }
 
 .diary {
-    width: 30%;
-    height: 40%;
-    box-shadow: 10px 5px 10px 5px;
-    margin-top: 5%;
+    width: 50%;
+    height: 50%;
+    /* box-shadow: 10px 5px 10px 5px; */
+    margin-top: 3%;
     
+}
+
+.mac-container {
+    display: flex;
+    justify-content: center;
+}
+
+.book-mac {
+    width: 35%;
+    height: 40%;
+}
+
+.event-mac {
+    width: 35%;
+    height: 40%;
+}
+
+.diary-mac {
+    width: 35%;
+    height: 40%;
 }
 
 ul {
@@ -251,7 +272,7 @@ li {
     display: inline-block;
     list-style: none;
     padding: 3%;
-    margin-top: 3%;
+    margin-bottom: 0%;
 }
 
 li button {
@@ -505,7 +526,7 @@ footer {
 
     .diary {
         width: 45%;
-        height: 45%
+        height: 45%;
     }
 
     .events {
@@ -543,11 +564,32 @@ footer {
         margin-left: 10%;
     }
 
-
-
     button {
         left: 1%;
     }
 
+    .mac-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-mac {
+        width: 70%;
+        height: 60%;
+    }
+
+    .event-mac {
+
+        width: 70%;
+        height: 60%;
+    }
+
+    .diary-mac {
+        width: 70%;
+        height: 60%;
+    }
+
+    
     
 }
