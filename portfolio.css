@@ -135,7 +135,7 @@ h3 {
 
 .icons {
     color: goldenrod;
-    margin-left: 19%;
+    margin-left: 10%;
     margin-top: 5%;
     
 }
@@ -599,6 +599,13 @@ footer {
     .diary-mac {
         width: 70%;
         height: 60%;
+    }
+
+    @media screen and (max-width: 440px) {
+        .item p {
+            font-size: 18px;
+        }
+        
     }
 
     @media screen and (max-width: 375px) {
