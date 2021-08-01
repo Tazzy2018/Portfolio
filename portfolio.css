@@ -617,22 +617,22 @@ footer {
 
     .book-mac {
         width: 75%;
-        height: 65%;
+        height: 70%;
     }
 
     .event-mac {
         width: 75%;
-        height: 65%;
+        height: 70%;
     }
 
     .diary-mac {
         width: 75%;
-        height: 65%;
+        height: 70%;
     }
 
     .daily-task-mac {
         width: 75%;
-        height: 65%;
+        height: 70%;
     }
 
     @media screen and (max-width: 440px) {
