@@ -170,7 +170,7 @@ h3 {
 }
 
 
-.info-project3 {
+.info-project1 {
     border: 3px solid goldenrod;
     padding: 1%;
     text-align: center;
@@ -195,10 +195,10 @@ h3 {
 }
 
 .books {
-    width: 40%;
-    height: 50%;
+    width: 25%;
+    height: 20%;
     /* box-shadow: 10px 5px 10px 5px; */
-    margin-top: 1%;
+    margin-top: 2%;
     
 } 
 
@@ -218,10 +218,29 @@ text-align: center;
 }
 
 .events {
-    width: 40%;
-    height: 50%;
+    width: 25%;
+    height: 20%;
     /* box-shadow: 10px 5px 10px 5px; */
     margin-top: 5%;
+}
+
+.info-project3 {
+    border: 3px solid goldenrod;
+    padding: 1%;
+    text-align: center;
+}
+
+.image-daily-task {
+        display: flex;
+        justify-content: center;
+        margin-left: 3%;
+}
+
+.to-do-list {
+    width: 25%;
+    height: 20%;
+    /* box-shadow: 10px 5px 10px 5px; */
+    margin-top: 3%;
 }
 
 
@@ -240,8 +259,8 @@ text-align: center;
 }
 
 .diary {
-    width: 40%;
-    height: 50%;
+    width: 25%;
+    height: 20%;
     /* box-shadow: 10px 5px 10px 5px; */
     margin-top: 3%;
     
@@ -253,18 +272,24 @@ text-align: center;
 }
 
 .book-mac {
-    width: 35%;
-    height: 40%;
+    width: 55%;
+    height: 60%;
+
 }
 
 .event-mac {
-    width: 35%;
-    height: 40%;
+    width: 55%;
+    height: 60%;
 }
 
 .diary-mac {
-    width: 35%;
-    height: 40%;
+    width: 55%;
+    height: 60%;
+}
+
+.daily-task-mac {
+    width: 55%;
+    height: 60%;
 }
 
 ul {
@@ -536,18 +561,23 @@ footer {
     }
 
     .diary {
-        width: 45%;
+        width: 40%;
         height: 45%;
     }
 
     .events {
-        width: 45%;
+        width: 40%;
         height: 45%
     }
 
     .books {
-        width: 45%;
+        width: 40%;
         height: 45%
+    }
+
+    .to-do-list {
+        width: 40%;
+        height: 45%;
     }
 
     .flex-box {
@@ -579,26 +609,30 @@ footer {
         left: 1%;
     }
 
-    .mac-container {
+    .image-book, .image-events, .image-diary, .image-daily-task {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .book-mac {
-        width: 70%;
-        height: 60%;
+        width: 75%;
+        height: 65%;
     }
 
     .event-mac {
-
-        width: 70%;
-        height: 60%;
+        width: 75%;
+        height: 65%;
     }
 
     .diary-mac {
-        width: 70%;
-        height: 60%;
+        width: 75%;
+        height: 65%;
+    }
+
+    .daily-task-mac {
+        width: 75%;
+        height: 65%;
     }
 
     @media screen and (max-width: 440px) {
